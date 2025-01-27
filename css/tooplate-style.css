@@ -117,8 +117,7 @@ b, strong {
 .animated-info {
   display: inline-block;
   vertical-align: top;
-  margin-top: 5px;
-  min-width: 260px;
+  min-width: 390px;
   position: relative;
 }
 
@@ -127,7 +126,7 @@ b, strong {
 }
 
 .animated-item {
-  font-size: 38px;
+  font-size: 44.8px;
   line-height: inherit;
   display: block;
   opacity: 0;
@@ -469,15 +468,33 @@ b, strong {
   margin: 0; /* Remove unnecessary margin */
 }
 
-
-.social-links .uil {
-  color: #f7f3f3;
-  font-size: 20px;
-  display: block;
-  margin: 5px 0;
+.custom-btn {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px 20px;
+  border-radius: 30px;
+  text-decoration: none;
+  display: inline-flex;
+  align-items: center;
 }
-.social-links .uil:hover {
+
+.icon-btn {
+  background-color: #f1f1f1;
+  color: #333;
+  padding: 10px;
+  border-radius: 50%;
+  text-decoration: none;
+  font-size: 18px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 40px; 
+  height: 40px; 
+}
+
+.icon-btn:hover {
   color: #ffc200;
+  text-decoration: none;
 }
 
 @media (min-width: 1270px) {
